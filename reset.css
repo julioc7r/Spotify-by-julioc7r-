@@ -1,0 +1,57 @@
+/* reset.css */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Garante que todos os elementos, incluindo pseudo-elementos, herdem a propriedade box-sizing com o valor border-box. Isso garante que as propriedades de largura e altura incluam o preenchimento e a borda, resultando em um dimensionamento de caixa consistente em diferentes elementos. */
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+/* Reseta a margem e o preenchimento dos elementos comumente utilizados para 0, garantindo espaçamento e layout consistentes. */
+
+/* Remove list styles */
+ol,
+ul {
+    list-style: none;
+}
+/* Remove os estilos de lista padrão (marcadores ou números) de listas ordenadas e não ordenadas. */
+
+/* Remove default anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Remove a sublinhado e a cor padrão dos elementos de âncora (links), permitindo que você os estilize conforme necessário. */
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+/* Remove a borda, o fundo, o preenchimento e o estilo de cursor padrão dos botões, permitindo que você os estilize conforme necessário. */
+
+/* Remove outline on focus */
+:focus {
+    outline: none;
+}
+/* Remove o contorno padrão que aparece ao redor dos elementos quando estão em foco, proporcionando uma aparência mais limpa e consistente. */
+
+/* Add more reset styles as needed */
+/* Adicione mais estilos de reset conforme necessário */
